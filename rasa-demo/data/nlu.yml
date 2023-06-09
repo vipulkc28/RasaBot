@@ -1,0 +1,215 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+  
+- intent: web_learner
+  examples: |
+    - LXP Web Learner
+    - web learner
+    - learner
+    - web
+
+- intent: change_profile
+  examples: |
+    - How to upload or change your profile image?
+    - change profile
+    - upload profile
+    - profile upload
+
+- intent: change_lang
+  examples: |
+    - How to change preferred language?
+    - change preferred language
+    - language change
+    - change language
+
+- intent: learning_plan
+  examples: |
+    - My Learning plan
+    - Introduction of learning plan
+
+- intent: assignments_access
+  examples: |
+    - How to access your assignments?
+    - Access assignments
+    - Assignments
+  
+- intent: completions_access
+  examples: |
+    - How to access your completions?
+    - Access completions
+    - completions
+
+- intent: change_profileview
+  examples: |
+    - How to change profile view?
+    - Profile view
+    - Profile
+
+- intent: edit_skill
+  examples: |
+    - How to edit your skilld?
+    - Edit Skill
+    - Skills
+
+- intent: notification_adjust
+  examples: |
+    - How to adjust your notification?
+    - Notification adjustment
+    - Notification
+
+- intent: content_type
+  examples: |
+    - What are the types of content?
+    - content type
+    - Type of content
+  
+- intent: create_content
+  examples: |
+    - How to create content?
+    - create content
+
+- intent: why_create_content
+  examples: |
+    - Why do you create content?
+    - why content creation
+
+- intent: action_content    
+  examples: |
+    - What are the different actions that can be performed on content?
+    - different actions performed on content
+    - performed on content
+    - actions performed on content
+
+- intent: create_smartcard
+  examples: |
+    - How to create a SmartCard?
+    - create smartcard
+    - smartcard
+    
+- intent: pathways
+  examples: |
+    - Pathways
+    - What is Pathways
+
+- intent: create_pathways
+  examples: |
+    - create Pathways
+    - How to create a Pathway?
+    
+- intent: need_pathways
+  examples: |
+    - Need Pathways
+    - Why do we need to create Pathways?
+    
+- intent: smartcard_create_pathways
+  examples: |
+    - create smartcard within Pathways
+    - How to create new SmartCards within a Pathway?
+
+- intent: collaborate_pathways
+  examples: |
+    - collaborate on Pathways
+    - How to collaborate on Pathways?
+
+- intent: allocate_badge_pathways
+  examples: |
+    - Allocate badge to Pathways
+    - How to allocate a badge to a Pathway?
+
+- intent: journey
+  examples: |
+    - What is Journey
+    - Explain journey
+    - Journey
+
+- intent: type_journey
+  examples: |
+    - What are the different types of Journeys?
+    - type of journey
+    - different type of journey
+
+- intent: create_journey
+  examples: |
+    - How to create a Journey?
+    - create journey
+    - journey creation
+
+- intent: goodbye
+  examples: |
+    - thanks
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

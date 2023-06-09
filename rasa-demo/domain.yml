@@ -1,0 +1,183 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - basic_customization
+  - change_favicon
+  - change_primarycolor
+  - web_learner
+  - change_profile
+  - change_lang
+  - learning_plan
+  - assignments_access
+  - completions_access
+  - change_profileview
+  - edit_skill
+  - notification_adjust
+  - content_type
+  - create_content
+  - why_create_content
+  - action_content
+  - create_smartcard
+  - pathways
+  - need_pathways
+  - create_pathways
+  - smartcard_create_pathways
+  - collaborate_pathways
+  - allocate_badge_pathways
+  - journey
+  - type_journey
+  - create_journey
+
+responses:
+  utter_greet:
+  - text: "Welcome to EdCast by CSOD Learning Exp. Let me know are you LXP Web Learner or Administering LXP ?"
+
+  utter_weblearner:
+    - text: "EdCast empowers you to build and develop skills based on your current learning goals \n
+            - organizational needs, and career aspirations. As a Learner, you can access EdCast LXP \n
+            - through the desktop web application, native mobile applications and also in the flow of work\n
+            - via apps for Microsoft Teams, Salesforce, Google Chrome, and more. Have quick tour of web application in below image" 
+      image: "http://localhost:5000/static/navigating.png"
+
+  utter_changeprofile:
+    - text: "Profile images are important for providing a rich experience on EdCast. There is an option to upload your profile image during the onboarding flow. 
+            Follow these steps to change your profile image after logging in to the EdCast Experience:"
+      image: "http://localhost:5000/static/profilestep1.png, http://localhost:5000/static/profilestep2.png,
+             http://localhost:5000/static/profilestep3.png"
+
+  utter_changelang:
+    - text: "EdCast supports localization in 22 languages to enable you to select your preferred language. It
+            means that all menu items, labels, and buttons will be displayed in your preferred language.
+            Follow these steps to select your preferred language:"
+      image: "http://localhost:5000/static/langstep1.png, http://localhost:5000/static/langstep2.png,
+             http://localhost:5000/static/langstep3.png"
+
+  utter_learningplan:
+  - text: "My Learning Plan (MLP) is used to track and to keep a record of your learning. The various
+            benefits of MLP are given below:
+            ● It enables you and your managers to plan a learning Journey for a given calendar year and showcase your achievements and progress.
+            ● It displays all the content that is assigned to you in all the four quarters of the year along with your progress.
+            The content in the learning plan includes all SmartCards, Pathways, and Journeys that are assigned to you. In certain instances, the Admins can choose not to display SmartCards in the MLP"
+    image: "http://localhost:5000/static/mylearningplan.png"
+
+  utter_assignments:
+  - text: "Follow these steps below to access your assignments:
+          1. Click the ME menu on the home page, then click the Learning Queue tab, and select the Assigned option to view all the assignments.
+          2. Select the content that you want to access.You will be redirected to the content page."
+    image: "http://localhost:5000/static/assignments.png"
+
+  utter_completions:
+  - text: "Follow these steps below to access your completions:"
+    image: "http://localhost:5000/static/completionstep1.png, http://localhost:5000/static/completionstep2.png"
+
+  utter_profileview:
+  - text: "The Profile tab enables you to view your profile as it will be seen by other users. In an external profile view, the following options are visible to other users in your profile page:
+            ● Your name, job title, email address (if enabled by Admin), skills, and any other custom field data configured by the Admin. 
+            ● All the profile widgets that you have configured for displaying. 
+            ● All the content created by you.]"
+  
+  utter_editskill:
+  - text: "The Skills Directory enables you to identify the skills required for a particular Job Family and Role by offering targeted content from internal and external sources. The various capabilities offered by this feature includes:
+            ● It builds a clear path to acquire the necessary skills to succeed 
+            ● It consists of many of today’s hot skills required for diverse job roles. 
+            ● It also significantly cuts down the discovery time to identify skills required for a targeted role.
+            ● The interface lets you enter a role, view skills, and click a specific content, ranked by priority"
+    image: "http://localhost:5000/static/editskillstep1.png, http://localhost:5000/static/editskillstep2.png"
+
+  utter_notification:
+  - text: "EdCast’s LXP platform provides many different notification and email push options that can be configured by Admins, managed by users, and customized by the instance owners."
+    image: "http://localhost:5000/static/notificationstep1.png, http://localhost:5000/static/notificationstep2.png, http://localhost:5000/static/notificationstep3.png"
+
+  utter_contenttype:
+  - text: "There are three types of contents that are created in EdCast platform:
+        ● SmartCard
+        ● Pathways
+        ● Journeys"
+
+  utter_createcontent:
+  - text: "It is very easy to create content in an EdCast instance. You can create any of the above content types by clicking the Create button on the top right corner of the page."
+    image: "https://localhost:5000/createcontent.png"
+    
+  utter_whycreatecontent:
+  - text: "Earlier, the Learning and Development (L&D) department owned and controlled the training. This department includes Subject Matter Experts (SMEs) of various technical subjects or external companies were also hired to create content. With EdCast, you can now easily add
+           your experience and knowledge as SMEs, influencers, and leaders by creating different content types such as SmartCards, Pathways, or Journeys.
+           Why is creating content important?
+            ● It enables sharing of knowledge that helps in adding new value to your current knowledge base.
+            ● It also helps in sharing your knowledge to help your team, your company, and your profession.
+            ● By sharing knowledge, you are building your credibility as an expert.
+            ● Sharing the knowledge also helps in mentoring and helping people to learn from the knowledge gained through your experience.
+              EdCast enables you to easily post all types of content to make it shareable among a wider genre of audience. You can assign it to specific people, groups of people, or post it within different containers of content to make it easily accessible."
+
+  utter_action_content:
+  - text: "You can perform various actions using the SmartCards, Pathways, and Journeys:"
+    image: "https://localhost:5000/actioncontentstep1.png, https://localhost:5000/actioncontentstep2.png, https://localhost:5000/actioncontentstep3.png, https://localhost:5000/actioncontentstep4.png"
+
+  utter_create_smartcard:
+  - text: "Follow the below steps to create a SmartCard:"
+    image: "https://localhost:5000/smartcardstep1.png, https://localhost:5000/smartcardstep2.png, https://localhost:5000/smartcardstep3.png"
+
+  utter_pathways:
+  - text: "A Pathway is a collection of smartcards or informative content that can be used for structuring and creating knowledge on a specific topic. EdCast has a feature that allows you to create their own custom Pathways of content. These Pathways are collections of smartcards that are presented to learners together to create a more rounded learning experience. It provides a structured learning path to learn about a specific topic.
+          The various capabilities offered by a Pathway includes:
+          ● On-boarding new employees.● Promoting to next levels on a subject.● Creating courses.● Getting certified and earning a badge."
+
+  utter_need_pathways:
+  - text: "A Pathway includes a combination of content types such as video, text, audio, and experiential content from anywhere on or off the web. It can also include content from expert, internal content, premium content, free/open content, and formal learning content"
+  
+  utter_create_pathways:
+  - text: "It is easy to create Pathways in EdCast. Follow the below steps to create a Pathway:"
+    image: "http://localhost:5000/static/pathwaystep1.png, http://localhost:5000/static/pathwaystep2.png, http://localhost:5000/static/pathwaystep3.png, http://localhost:5000/static/pathwaystep4.png, http://localhost:5000/static/pathwaystep5.png, http://localhost:5000/static/pathwaystep6.png, http://localhost:5000/static/pathwaystep7.png, http://localhost:5000/static/pathwaystep8.png, http://localhost:5000/static/pathwaystep9.png"
+
+  utter_smartcard_pathways:
+  - text: "To create a new SmartCard within a Pathway, follow the below steps"
+    image: "http://localhost:5000/static/smartcardpathwaystep1.png, http://localhost:5000/static/smartcardpathwaystep2.png, http://localhost:5000/static/smartcardpathwaystep3.png"
+
+  utter_collaborate_pathways:
+  - text: "Pathway supports collaborators by allowing multiple users to work on the same content. For Pathways, the original creators can add a collaborator during creation of the Pathway or you can edit it to add a Collaborator."
+    image: "http://localhost:5000/static/collaboratepathwaysstep1.png"
+
+  utter_allocate_badge_pathways:
+  - text: "Badges are added into Pathways and Journeys only when the learners successfully completes the entire Pathway or Journey. It is a best practice to always include quiz cards within Pathways that offer badges to ensure comprehension of the subject matter. If there are quiz cards within the Pathway, they must be answered correctly to earn the badge.If LinkedIn is configured with your EdCast Instance, you can publish the badge earned to your LinkedIn profile."
+
+  utter_journey:
+  - text: "A Journey represents multiple Pathways as a single object for offering an expanded learning experience to the learners. The Pathways may or may not be time bound and you can organize them in your desired way. Journeys are a more complex construct and you can use them for the development of a more structured knowledge base or skills set.With a Journey, you can create an expanded learning experience where learners will go through a set of SmartCards in one group and once they completes this set, they can move to next set and so on."
+
+  utter_type_journey:
+  - text: "There are three different types of Journeys:"
+    image: "http://localhost:5000/static/journeytypestep1.png, http://localhost:5000/static/journeytypestep2.png"
+
+  utter_create_journey:
+  - text: "The primary details for creating a Journey are the same required in creating a Pathway, except the configuration of the type of Journey. You can also add SmartCards with the Journey similar to the way you add in a Pathway. However, you can also add an existing Pathway as a section with the Journey"
+    image: "http://localhost:5000/static/journeytypestep1.png, http://localhost:5000/static/journeytypestep2.png"
+
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+actions:
+  - utter_greet
+  - utter_weblearner
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

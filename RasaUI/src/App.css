@@ -1,0 +1,12 @@
+body {
+  background-color: #eff0f7 !important;
+}
+.topnav-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.topnav-div p {
+  font-size: 12px;
+}

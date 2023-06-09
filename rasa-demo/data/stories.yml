@@ -1,0 +1,191 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+ 
+- story: web learner
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: web_learner
+  - action: utter_weblearner
+
+- story: profile change
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_profile
+  - action: utter_changeprofile
+
+- story: language change
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_lang
+  - action: utter_changelang
+
+- story: my learning plan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: learning_plan
+  - action: utter_learningplan
+
+- story: access your assignments
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: assignments_access
+  - action: utter_assignments
+
+- story: access your completions
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: completions_access
+  - action: utter_completions
+
+- story: change profile view
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_profileview
+  - action: utter_profileview
+
+- story: edit skills 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: edit_skill
+  - action: utter_editskill
+
+- story: adjust notification 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: notification_adjust
+  - action: utter_notification
+
+- story: contents type 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: content_type
+  - action: utter_contenttype
+
+- story: contents creation 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: create_content
+  - action: utter_createcontent
+
+- story: why to creation content
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: why_create_content
+  - action: utter_whycreatecontent   
+  
+- story: action to performed content
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: action_content
+  - action: utter_action_content
+
+- story: create smart card
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: create_smartcard
+  - action: utter_create_smartcard
+  
+- story: pathways
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pathways
+  - action: utter_pathways
+
+- story: need pathways
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: need_pathways
+  - action: utter_need_pathways
+
+- story: create pathways
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: create_pathways
+  - action: utter_create_pathways
+
+- story: smartcard create pathways
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: smartcard_create_pathways
+  - action: utter_smartcard_pathways
+
+- story: collaborate pathways
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: collaborate_pathways
+  - action: utter_collaborate_pathways
+
+- story: allocate badge to pathways
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: allocate_badge_pathways
+  - action: utter_allocate_badge_pathways
+
+- story: journey
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: journey
+  - action: utter_journey
+
+- story: different type of journey
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: type_journey
+  - action: utter_type_journey
+
+- story: create journey
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: create_journey
+  - action: utter_create_journey
+  
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

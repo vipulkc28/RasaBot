@@ -1,0 +1,25 @@
+Questions:-
+1. LXP Web Learner
+2. How to upload or change your profile image?
+3. How to change preferred language?
+4. My Learning plan
+5. How to access your assignments?
+6. How to access your completions?
+7. How to change profile view?
+8. How to edit your skilld?
+9. How to adjust your notification?
+10. What are the types of content?
+11. How to create content?
+12. Why do you create content?
+13. What are the different actions that can be performed on content?
+14. How to create a SmartCard?
+15. What is Pathways
+16. How to create a Pathway?
+17. Why do we need to create Pathways?
+18. How to create new SmartCards within a Pathway?
+19. How to allocate a badge to a Pathway?
+20. How to collaborate on Pathways?
+21. What is Journey
+22. What are the different types of Journeys?
+23. How to create a Journey?
+24. 
