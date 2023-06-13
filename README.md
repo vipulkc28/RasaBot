@@ -4,7 +4,7 @@
 Frontend
 Step to run Rasa UI
 
-1. clone code from git/bitbucket
+1. clone code from git
 2. Go to project folder name using command cd RasaBot/RasaUI
 3. Run npm install
 4. Run np start
