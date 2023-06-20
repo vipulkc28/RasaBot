@@ -44,20 +44,20 @@ responses:
             - organizational needs, and career aspirations. As a Learner, you can access EdCast LXP \n
             - through the desktop web application, native mobile applications and also in the flow of work\n
             - via apps for Microsoft Teams, Salesforce, Google Chrome, and more. Have quick tour of web application in below image" 
-      image: "http://localhost:5000/static/navigating.png"
+      image: "https://chatbot-qa.cmnetwork.co/static/navigating.png"
 
   utter_changeprofile:
     - text: "Profile images are important for providing a rich experience on EdCast. There is an option to upload your profile image during the onboarding flow. 
             Follow these steps to change your profile image after logging in to the EdCast Experience:"
-      image: "http://localhost:5000/static/profilestep1.png, http://localhost:5000/static/profilestep2.png,
-             http://localhost:5000/static/profilestep3.png"
+      image: "https://chatbot-qa.cmnetwork.co/static/profilestep1.png, https://chatbot-qa.cmnetwork.co/static/profilestep2.png,
+             https://chatbot-qa.cmnetwork.co/static/profilestep3.png"
 
   utter_changelang:
     - text: "EdCast supports localization in 22 languages to enable you to select your preferred language. It
             means that all menu items, labels, and buttons will be displayed in your preferred language.
             Follow these steps to select your preferred language:"
-      image: "http://localhost:5000/static/langstep1.png, http://localhost:5000/static/langstep2.png,
-             http://localhost:5000/static/langstep3.png"
+      image: "https://chatbot-qa.cmnetwork.co/static/langstep1.png, https://chatbot-qa.cmnetwork.co/static/langstep2.png,
+             https://chatbot-qa.cmnetwork.co/static/langstep3.png"
 
   utter_learningplan:
   - text: "My Learning Plan (MLP) is used to track and to keep a record of your learning. The various
@@ -65,17 +65,17 @@ responses:
             ● It enables you and your managers to plan a learning Journey for a given calendar year and showcase your achievements and progress.
             ● It displays all the content that is assigned to you in all the four quarters of the year along with your progress.
             The content in the learning plan includes all SmartCards, Pathways, and Journeys that are assigned to you. In certain instances, the Admins can choose not to display SmartCards in the MLP"
-    image: "http://localhost:5000/static/mylearningplan.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/mylearningplan.png"
 
   utter_assignments:
   - text: "Follow these steps below to access your assignments:
           1. Click the ME menu on the home page, then click the Learning Queue tab, and select the Assigned option to view all the assignments.
           2. Select the content that you want to access.You will be redirected to the content page."
-    image: "http://localhost:5000/static/assignments.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/assignments.png"
 
   utter_completions:
   - text: "Follow these steps below to access your completions:"
-    image: "http://localhost:5000/static/completionstep1.png, http://localhost:5000/static/completionstep2.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/completionstep1.png, https://chatbot-qa.cmnetwork.co/static/completionstep2.png"
 
   utter_profileview:
   - text: "The Profile tab enables you to view your profile as it will be seen by other users. In an external profile view, the following options are visible to other users in your profile page:
@@ -89,11 +89,11 @@ responses:
             ● It consists of many of today’s hot skills required for diverse job roles. 
             ● It also significantly cuts down the discovery time to identify skills required for a targeted role.
             ● The interface lets you enter a role, view skills, and click a specific content, ranked by priority"
-    image: "http://localhost:5000/static/editskillstep1.png, http://localhost:5000/static/editskillstep2.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/editskillstep1.png, https://chatbot-qa.cmnetwork.co/static/editskillstep2.png"
 
   utter_notification:
   - text: "EdCast’s LXP platform provides many different notification and email push options that can be configured by Admins, managed by users, and customized by the instance owners."
-    image: "http://localhost:5000/static/notificationstep1.png, http://localhost:5000/static/notificationstep2.png, http://localhost:5000/static/notificationstep3.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/notificationstep1.png, https://chatbot-qa.cmnetwork.co/static/notificationstep2.png, https://chatbot-qa.cmnetwork.co/static/notificationstep3.png"
 
   utter_contenttype:
   - text: "There are three types of contents that are created in EdCast platform:
@@ -133,15 +133,15 @@ responses:
   
   utter_create_pathways:
   - text: "It is easy to create Pathways in EdCast. Follow the below steps to create a Pathway:"
-    image: "http://localhost:5000/static/pathwaystep1.png, http://localhost:5000/static/pathwaystep2.png, http://localhost:5000/static/pathwaystep3.png, http://localhost:5000/static/pathwaystep4.png, http://localhost:5000/static/pathwaystep5.png, http://localhost:5000/static/pathwaystep6.png, http://localhost:5000/static/pathwaystep7.png, http://localhost:5000/static/pathwaystep8.png, http://localhost:5000/static/pathwaystep9.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/pathwaystep1.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep2.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep3.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep4.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep5.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep6.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep7.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep8.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep9.png"
 
   utter_smartcard_pathways:
   - text: "To create a new SmartCard within a Pathway, follow the below steps"
-    image: "http://localhost:5000/static/smartcardpathwaystep1.png, http://localhost:5000/static/smartcardpathwaystep2.png, http://localhost:5000/static/smartcardpathwaystep3.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/smartcardpathwaystep1.png, https://chatbot-qa.cmnetwork.co/static/smartcardpathwaystep2.png, https://chatbot-qa.cmnetwork.co/static/smartcardpathwaystep3.png"
 
   utter_collaborate_pathways:
   - text: "Pathway supports collaborators by allowing multiple users to work on the same content. For Pathways, the original creators can add a collaborator during creation of the Pathway or you can edit it to add a Collaborator."
-    image: "http://localhost:5000/static/collaboratepathwaysstep1.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/collaboratepathwaysstep1.png"
 
   utter_allocate_badge_pathways:
   - text: "Badges are added into Pathways and Journeys only when the learners successfully completes the entire Pathway or Journey. It is a best practice to always include quiz cards within Pathways that offer badges to ensure comprehension of the subject matter. If there are quiz cards within the Pathway, they must be answered correctly to earn the badge.If LinkedIn is configured with your EdCast Instance, you can publish the badge earned to your LinkedIn profile."
@@ -151,11 +151,11 @@ responses:
 
   utter_type_journey:
   - text: "There are three different types of Journeys:"
-    image: "http://localhost:5000/static/journeytypestep1.png, http://localhost:5000/static/journeytypestep2.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/journeytypestep1.png, https://chatbot-qa.cmnetwork.co/static/journeytypestep2.png"
 
   utter_create_journey:
   - text: "The primary details for creating a Journey are the same required in creating a Pathway, except the configuration of the type of Journey. You can also add SmartCards with the Journey similar to the way you add in a Pathway. However, you can also add an existing Pathway as a section with the Journey"
-    image: "http://localhost:5000/static/journeytypestep1.png, http://localhost:5000/static/journeytypestep2.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/journeytypestep1.png, https://chatbot-qa.cmnetwork.co/static/journeytypestep2.png"
 
 
   utter_cheer_up:
