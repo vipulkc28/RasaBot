@@ -8,7 +8,6 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - basic_customization
   - change_favicon
   - change_primarycolor
   - web_learner
@@ -34,7 +33,84 @@ intents:
   - journey
   - type_journey
   - create_journey
-
+  - add_exist_pathway
+  - allocate_badge_journey
+  - co_author_journey
+  - create_custom_feeds
+  - featured_feeds
+  - team_learning
+  - create_announcements
+  - type_carousel
+  - config_discover_page
+  - different_role
+  - search_effectively_EdCast
+  - different_categories_search
+  - enable_disable_search_result
+  - disable_people_search
+  - most_EdCast_search
+  - private_channel
+  - type_channel
+  - create_channel
+  - curate_content_channel
+  - change_channel_setting
+  - manage_channel
+  - tune_channel
+  - feature_un_feature_content
+  - different_user_roles
+  - best_practices_channel_curation
+  - user_subscribe
+  - sort_channel
+  - nvg_leaderboard
+  - filter_result_leaderboard
+  - manage_dashboard
+  - manager_dashboard_offer
+  - add_manager
+  - 360_degree_skill_assign
+  - rem_complete_assignments
+  - basic_customization
+  - features_level1_basic_customization
+  - change_fav_icon
+  - change_primary_color
+  - change_header_color
+  - change_search_color
+  - change_search_txt_color
+  - change_placeholdertext_color
+  - change_micon_rcolor
+  - change_menu_underline_color
+  - change_bbackground_color
+  - change_btext_color
+  - change_font
+  - setup_signup_functionality
+  - configure_user_acceptance_sign
+  - whitelabel_package
+  - modify_team_page
+  - edit_feed_expry
+  - set_privacy_policy
+  - enable_terms_service
+  - set_links_stores
+  - set_chrome_extlink
+  - set_support_emaillink
+  - enable_disable_ecustom_css
+  - enable_disable_mobile_promotions
+  - disable_emails_notifications
+  - change_google_analytics_tracking
+  - edit_no_learning
+  - change_default_tlang
+  - change_active_websession
+  - change_inactive_websession
+  - domo_url
+  - customize_clc_image
+  - customize_badges
+  - config_hometab
+  - discover_page
+  - diff_type_carousels
+  - config_dis_page
+  - managing_usersedcast
+  - config_login_page
+  - types_user_state
+  - manual_add_users
+  
+  
 responses:
   utter_greet:
   - text: "Welcome to EdCast by CSOD Learning Exp. Let me know are you LXP Web Learner or Administering LXP ?"
@@ -44,20 +120,20 @@ responses:
             - organizational needs, and career aspirations. As a Learner, you can access EdCast LXP \n
             - through the desktop web application, native mobile applications and also in the flow of work\n
             - via apps for Microsoft Teams, Salesforce, Google Chrome, and more. Have quick tour of web application in below image" 
-      image: "http://localhost:5000/static/navigating.png"
+      image: "https://chatbot-qa.cmnetwork.co/static/navigating.png"
 
   utter_changeprofile:
     - text: "Profile images are important for providing a rich experience on EdCast. There is an option to upload your profile image during the onboarding flow. 
             Follow these steps to change your profile image after logging in to the EdCast Experience:"
-      image: "http://localhost:5000/static/profilestep1.png, http://localhost:5000/static/profilestep2.png,
-             http://localhost:5000/static/profilestep3.png"
+      image: "https://chatbot-qa.cmnetwork.co/static/profilestep1.png, https://chatbot-qa.cmnetwork.co/static/profilestep2.png,
+             https://chatbot-qa.cmnetwork.co/static/profilestep3.png"
 
   utter_changelang:
     - text: "EdCast supports localization in 22 languages to enable you to select your preferred language. It
             means that all menu items, labels, and buttons will be displayed in your preferred language.
             Follow these steps to select your preferred language:"
-      image: "http://localhost:5000/static/langstep1.png, http://localhost:5000/static/langstep2.png,
-             http://localhost:5000/static/langstep3.png"
+      image: "https://chatbot-qa.cmnetwork.co/static/langstep1.png, https://chatbot-qa.cmnetwork.co/static/langstep2.png,
+             https://chatbot-qa.cmnetwork.co/static/langstep3.png"
 
   utter_learningplan:
   - text: "My Learning Plan (MLP) is used to track and to keep a record of your learning. The various
@@ -65,17 +141,17 @@ responses:
             ● It enables you and your managers to plan a learning Journey for a given calendar year and showcase your achievements and progress.
             ● It displays all the content that is assigned to you in all the four quarters of the year along with your progress.
             The content in the learning plan includes all SmartCards, Pathways, and Journeys that are assigned to you. In certain instances, the Admins can choose not to display SmartCards in the MLP"
-    image: "http://localhost:5000/static/mylearningplan.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/mylearningplan.png"
 
   utter_assignments:
   - text: "Follow these steps below to access your assignments:
           1. Click the ME menu on the home page, then click the Learning Queue tab, and select the Assigned option to view all the assignments.
           2. Select the content that you want to access.You will be redirected to the content page."
-    image: "http://localhost:5000/static/assignments.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/assignments.png"
 
   utter_completions:
   - text: "Follow these steps below to access your completions:"
-    image: "http://localhost:5000/static/completionstep1.png, http://localhost:5000/static/completionstep2.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/completionstep1.png, https://chatbot-qa.cmnetwork.co/static/completionstep2.png"
 
   utter_profileview:
   - text: "The Profile tab enables you to view your profile as it will be seen by other users. In an external profile view, the following options are visible to other users in your profile page:
@@ -89,11 +165,11 @@ responses:
             ● It consists of many of today’s hot skills required for diverse job roles. 
             ● It also significantly cuts down the discovery time to identify skills required for a targeted role.
             ● The interface lets you enter a role, view skills, and click a specific content, ranked by priority"
-    image: "http://localhost:5000/static/editskillstep1.png, http://localhost:5000/static/editskillstep2.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/editskillstep1.png, https://chatbot-qa.cmnetwork.co/static/editskillstep2.png"
 
   utter_notification:
   - text: "EdCast’s LXP platform provides many different notification and email push options that can be configured by Admins, managed by users, and customized by the instance owners."
-    image: "http://localhost:5000/static/notificationstep1.png, http://localhost:5000/static/notificationstep2.png, http://localhost:5000/static/notificationstep3.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/notificationstep1.png, https://chatbot-qa.cmnetwork.co/static/notificationstep2.png, https://chatbot-qa.cmnetwork.co/static/notificationstep3.png"
 
   utter_contenttype:
   - text: "There are three types of contents that are created in EdCast platform:
@@ -133,15 +209,15 @@ responses:
   
   utter_create_pathways:
   - text: "It is easy to create Pathways in EdCast. Follow the below steps to create a Pathway:"
-    image: "http://localhost:5000/static/pathwaystep1.png, http://localhost:5000/static/pathwaystep2.png, http://localhost:5000/static/pathwaystep3.png, http://localhost:5000/static/pathwaystep4.png, http://localhost:5000/static/pathwaystep5.png, http://localhost:5000/static/pathwaystep6.png, http://localhost:5000/static/pathwaystep7.png, http://localhost:5000/static/pathwaystep8.png, http://localhost:5000/static/pathwaystep9.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/pathwaystep1.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep2.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep3.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep4.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep5.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep6.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep7.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep8.png, https://chatbot-qa.cmnetwork.co/static/pathwaystep9.png"
 
   utter_smartcard_pathways:
   - text: "To create a new SmartCard within a Pathway, follow the below steps"
-    image: "http://localhost:5000/static/smartcardpathwaystep1.png, http://localhost:5000/static/smartcardpathwaystep2.png, http://localhost:5000/static/smartcardpathwaystep3.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/smartcardpathwaystep1.png, https://chatbot-qa.cmnetwork.co/static/smartcardpathwaystep2.png, https://chatbot-qa.cmnetwork.co/static/smartcardpathwaystep3.png"
 
   utter_collaborate_pathways:
   - text: "Pathway supports collaborators by allowing multiple users to work on the same content. For Pathways, the original creators can add a collaborator during creation of the Pathway or you can edit it to add a Collaborator."
-    image: "http://localhost:5000/static/collaboratepathwaysstep1.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/collaboratepathwaysstep1.png"
 
   utter_allocate_badge_pathways:
   - text: "Badges are added into Pathways and Journeys only when the learners successfully completes the entire Pathway or Journey. It is a best practice to always include quiz cards within Pathways that offer badges to ensure comprehension of the subject matter. If there are quiz cards within the Pathway, they must be answered correctly to earn the badge.If LinkedIn is configured with your EdCast Instance, you can publish the badge earned to your LinkedIn profile."
@@ -151,16 +227,300 @@ responses:
 
   utter_type_journey:
   - text: "There are three different types of Journeys:"
-    image: "http://localhost:5000/static/journeytypestep1.png, http://localhost:5000/static/journeytypestep2.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/journeytypestep1.png, https://chatbot-qa.cmnetwork.co/static/journeytypestep2.png"
 
   utter_create_journey:
   - text: "The primary details for creating a Journey are the same required in creating a Pathway, except the configuration of the type of Journey. You can also add SmartCards with the Journey similar to the way you add in a Pathway. However, you can also add an existing Pathway as a section with the Journey"
-    image: "http://localhost:5000/static/journeytypestep1.png, http://localhost:5000/static/journeytypestep2.png"
+    image: "https://chatbot-qa.cmnetwork.co/static/journeycstep1.png, https://chatbot-qa.cmnetwork.co/static/journeycstep2.png, https://chatbot-qa.cmnetwork.co/static/journeycstep2.png"
 
+  utter_exisitng_pathway:
+  - text: "To add an existing Pathway to a Journey follow the steps below: 1. Refer to steps How to create a Journey? section to create a Journey"
+    image: "https://chatbot-qa.cmnetwork.co/static/addexpathwatstep1.png"
+
+  utter_allocate_badge_journey:
+  - text: "Badges can be added into Pathways and Journeys to be earned by learners upon successful completion of the entire Pathway/Journey. It is a best practice to always include quiz cards within Pathways that offer badges to ensure comprehension of the subject matter. If there are vquiz cards within the Pathway, they must be answered correctly to earn the badge. Predefined badges can be selected, new badge images can be uploaded and if Credly integration is enabled, Credly badges can be enabled."
+    image: "https://chatbot-qa.cmnetwork.co/static/allocatejourneystep1.png"
+
+  utter_co_author_journey:
+  - text: "Similar to Pathways, Journeys also support collaborators by allowing multiple users to co-author the same content. For Journeys, the original creators can add a collaborator during creation of the Pathway or you can edit it to add a Collaborator."
+  
+  utter_create_custom_feeds:
+  - text: "Custom feeds can be defined to show the contents of a specific channel or a group of channels. You can create a channel populated with your companys RSS news feed and populate this content into a custom feed as an Admin"
+    image: "https://chatbot-qa.cmnetwork.co/static/customfeedstep1.png"
+
+  utter_features_feeds:
+  - text: "Featured feed highlights the curated content carousels as a large card. You can feature multiple items, which will make the pinned space a large section by following below steps:"
+    image: "https://chatbot-qa.cmnetwork.co/static/customfeedstep1.png"
+
+  utter_team_learning:
+  - text: "Team Learning is a chronological display of content from other users, groups, and channel followed by you"
+    image: "https://chatbot-qa.cmnetwork.co/static/teamlearnstep1.png"
+  
+  utter_announcements:
+  - text: "The HTML Widget also called the Announcements panel is one of the most flexible features offered by EdCast. It accepts any HTML (scripts not supported), thus enabling you to embed videos, images, text, links,etc To enable this feature, follow these steps below:"
+    image: "https://chatbot-qa.cmnetwork.co/static/announcementsstep1.png"
+
+  utter_type_carousel:
+  - text: "● Featured Provider: It includes any open, private, or premium content providers that are exclusively featured on your Discover page. Example: Udacity, Coursera, Udemy, TED, etc.
+      ● Custom Carousels: It includes carousels created by your Admin. These are customized according to your organization’s objectives to display. Example: Being EdCaster, EdCast Originals, All Channels, and Higher Education.
+      ● Subject Matter Experts: These are individuals with the assigned role of an SME. Only the SMEs whom you follow display on your Discover page
+      ● Trending Content: Any content is considered ‘Trending’ based on the number of activities/actions performed by the user such as likes, comments, views, marked as completed, and bookmarks.
+      ● Courses: Any courses published by the EdCast Corporate Academy MOOC feature display on your Discover page."
+
+  utter_config_discover_page:
+  - text: "To configure the Discover page, follow the steps below:
+      1. Select Admin option under More waffle icon, expand Content option on the left pane and select Custom Carousels.
+      2. Select type of the carousel. 3. Enter Carousel Name. 4. Click the CREATE CAROUSEL button"
+
+  utter_different_role:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/diffrolestep1.png, https://chatbot-qa.cmnetwork.co/static/diffrolestep2.png"
+  
+  utter_search_effectively_EdCast:
+  - text: "EdCast supports unified search functionality with one search index and entitlements. In simple terms, EdCast finds the most relevant content for you based on all the content that is aggregated on the platform with limited access rights."
+    image: "https://chatbot-qa.cmnetwork.co/static/searcheffestep1.png"
+  
+  utter_different_categories_search:
+  - text: "The Header Search is the main content search within EdCast. It enables you to search for any word or phrase and then filter the results intuitively. Following are the filters types used to filter the search results:"
+    image: "https://chatbot-qa.cmnetwork.co/static/diffcatsearchstep1.png, https://chatbot-qa.cmnetwork.co/static/diffcatsearchstep2.png"
+
+  utter_enable_disable_search_result:
+  - text: "Follow the below step to enable/disable People option: 1. Select Admin option under More waffle icon, expand Settings option on the left pane and select Team. 2. Slide the Disable User Search toggle button ON to exclude the People option from the search results. 3. Slide the Disable User Search toggle button OFF to display People option in search results."
+
+  utter_disable_people_search:
+  - text: "Follow the below step to disable People Search: 1. Select Admin option under More waffle icon, expand Settings option on the left pane and select Configuration. 2. Slide the People toggle button ON to enable the People search under More menu and vice versa to disable it."
+
+  utter_most_EdCast_search:
+  - text: "If you want to search for a teammate or find a specific smartcard, the search functionality on the EdCast platform enables you to discover the exact matches. EdCasts search algorithm is powered by ElasticSearch, which enables you to find the most relevant content from all the aggregated content accessible to you. With the diverse content entities that exist on the platform, the search caters to different types of results depending on your needs."
+
+  utter_private_channel:
+  - text: "Private channels are a group of related content that are visible only to specific users that have permission to view by being added as a Follower, or a member of a Group that are set to follow or access the channel.
+    The following are the types of private channel follow options set by the Administrator: ● Restrict Only- Users or Groups will be able to access and explore this channel on the Discover page or on the Channels page. They can view the content of this channel but they won't be able to follow this channel. ● Restrict and Follow- Users or Groups will be set to follow the channel but they can choose to unfollow the channel at any time. Once it is unfollowed, it will become a restricted only channel for the user. ● Restrict and Mandatory Follow- Users will be set to follow the channel but they can't unfollow the channel."
+
+  utter_type_channel:
+  - text: "There are three types of channel content options used for publishing the content in the channels: ● Machine Curated - The machine curated content can be published into the channels by two ways: ○ Auto-curated - A fixed number of content is automatically published into the channel
+    ○ Curatable - A human curator will be responsible for reviewing the content suggested by the Artificial Intelligence (AI) first and then determines the content to publish to the channel. ● Human Curated - The human curated content can be posted to the channels by two ways: ○ Open - All users can post content into the channel. ○ Curatable - The content added to a channel is first reviewed and modified by a human curator before publishing. ● Hybrid - It is a combination of machine and human curated model for publishing the content to the channel."
+
+  utter_create_channel:
+  - text: "The strategy for deciding what channels you will create typically starts with the portfolios or colleges that you have in your L&D infrastructure. While this will evolve over time, there is a typical set up that most enterprise customers use. You can perform various tasks on channels. The tasks are listed below: ● Group channels into different image styles and into different carousels to make searching content easier for the users. subjects and content easier for the users. ● Select channel owners from a mix of leaders, subject matter experts,and L&D team members for each channel. ● Develop a community that can support new content and user generated content. ● Plan workshops for your curators, collaborators, and champions to help them get started."
+
+  utter_curate_content_channel:
+  - text: "If a channel is configured for curator review, you can perform following tasks as a curator: ● Review the content in your channel and occasionally pruning the content.,
+      ● Permanently set a piece of content to always display in a specific position of the default sections of a channel. ● Choose to Feature or Promote content on the top of the Channel. Follow these steps below to publish a content in the channel: 1. In the channel, click the Curate button below the Channel Description. 2. Review the presented cards. 3. Click a Card to review content. 4. Click Accept to post the content in the channel or click Reject"
+    image: "https://chatbot-qa.cmnetwork.co/static/curatechannelstep1.png, https://chatbot-qa.cmnetwork.co/static/curatechannelstep2.png"
+
+  utter_change_channel_setting:
+  - text: "As a channel creator/curator, you can also change the channel settings from the Curation Dashboard page by clicking the Go to Channel Settings button."
+    image: "https://chatbot-qa.cmnetwork.co/static/changechannelstep1.png"
+
+  utter_manage_channel:
+  - text: "The channel curator is the principal manager of the channel. Depending on the channel's strategy, this role performs several operations that include content curation, pinning, or removing irrelevant content. Channel curators also edit the channel and configure the carousels on the channel along with the general look and feel of the channel."
+
+  utter_tune_channel:
+  - text: "Content on a channel can be published in one of two ways listed below: ● Manually posting items to a channel ● Tuning the channel to pull data on specific topics from a specific provider. To tune a channel, a curator performs below steps: 1. Click the Edit button to modify a channel. 2. Click the Tuning Tab. Within the Tuning tab, the curator can define the sources to pull the data from, the topic for the content, the type of content, the language of the content, and the number of cards fetched on a daily basis. If a channel is set as a curated channel,it will display in the curators queue on the home page, otherwise the content will publish on the channel automatically under the SmartCard carousel. The content is published in both queues every 24 hours."
+
+  utter_feature_un_feature_content:
+  - text: "Featuring content highlights the content within the channel and adds it to the Featured carousel of the channel. You can feature multiple items to display under the Featured carousel. The process to feature items is quick and easy."
+    image: "https://chatbot-qa.cmnetwork.co/static/featstep1.png, https://chatbot-qa.cmnetwork.co/static/featstep2.png"
+
+  utter_best_practices_channel_curation:
+  - text: "● Think about how your users are used to finding content. ● Think about the champions, curators, and experts who can own the channels. ● Think about the key skills you want to develop. ● Ensure to make it easy for people to find the content they are looking for. Most customers start with a focused set of channels and evolve as content grows."
+   
+  utter_different_user_roles:
+  - text: "Featuring content highlights the content within the channel and adds it to the Featured carousel of the channel. You can feature multiple items to display under the Featured carousel. The process to feature items is quick and easy."
+    image: "https://chatbot-qa.cmnetwork.co/static/channeluserrolestep1.png"
+
+  utter_user_subscribe:
+  - text: "You can subscribe for notifications for your favorite Channels. These notifications will let you know when new content becomes available and when they are configured at an individual Channel level. Follow the below step to subscribe to a channel:"
+    image: "https://chatbot-qa.cmnetwork.co/static/usersubstep1.png, https://chatbot-qa.cmnetwork.co/static/usersubstep2.png, https://chatbot-qa.cmnetwork.co/static/usersubstep3.png"
+
+  utter_sort_channel:
+  - text: "The Channels page provides you the ability to sort the channels alphabetically and by their date of creation."
+    image: "https://chatbot-qa.cmnetwork.co/static/sortchnlestep.png"
+  
+  utter_nvg_leaderboard:
+  - text: "Follow the steps given below to navigate to the Leaderboard: 1. Click More waffle icon, and click Leaderboard."
+
+  utter_filter_result_leaderboard:
+  - text: "Gamification points showing up on the Leaderboard can be filtered in three different ways:"
+    image: "https://chatbot-qa.cmnetwork.co/static/filterleaderboardstep.png"
+
+  utter_manage_dashboard:
+  - text: "Manager's dashboard is a platform that offers team's insights to managers."
+    image: "https://chatbot-qa.cmnetwork.co/static/dashboardstep.png"
+
+  utter_manager_dashboard_offer:
+  - text: "● Enables managers to review performance, learning plan, skills & level, and assignments at team or at individual level. ● Provides content level assignment progress status to identify and nudge users to complete assignments using Reminders."
+    image: "https://chatbot-qa.cmnetwork.co/static/mdashboardstep.png"
+
+  utter_add_manager:
+  - text: "A user can add his/her manager manually by navigating to the My Organization section under the ME tab"
+    image: "https://chatbot-qa.cmnetwork.co/static/addmangstep.png"
+
+  utter_rem_complete_assignments:
+  - text: "Managers have the ability to send reminders to team members who have not started a course or are in progress."
+    image: "https://chatbot-qa.cmnetwork.co/static/remassgnstep1.png, https://chatbot-qa.cmnetwork.co/static/remassgnstep2.png"
+
+  utter_360_degree_skill_assign:
+  - text: "The 360-degree Skills Assessment feature enables you to take a comprehensive view of skills for your current job role through a self assessment and feedback from your colleagues and manager"
+    image: "https://chatbot-qa.cmnetwork.co/static/360degree.png"
+
+  utter_basic_customization:
+  - text: "EdCast offers Level 1 basic customization ability to enable Administrators modify the various attributes as part of the color scheme."
+
+  utter_features_level1_basic_customization:
+  - text: "There are two most important features offers as part of Level 1 basic customization: ● Customizable logo of the organization ● Modification of color scheme"
+    image: "https://chatbot-qa.cmnetwork.co/static/flevelbcstep1.png, https://chatbot-qa.cmnetwork.co/static/flevelbcstep2.png"
+
+  utter_change_fav_icon:
+  - text: "The fav icon is the image that displays in the browser tab. Follow the steps below to modify the fav icon: 1. Under More waffle icon, Select Admin option, expand Branding option on the left pane and select General. 2. Click the Fav Icon to upload an image. The recommended image size for the Fav icon is 120px x 120 px. Once the image is uploaded, it displays as the Fav icon in the browser tab."
+
+  utter_change_primary_color:
+  - text: "Follow the steps below to modify the primary company color: 1. Under More waffle icon, Select Admin option, expand Branding option on the left pane and select General. 2. Scroll down to the Theme Configuration section. 3. In the Primary Company Color* field, enter the code of the new color. 4. Click the Save Changes button at the bottom of the page to update the changes. The updated color code will now reflect as your Primary Company Color."
+
+  utter_change_header_color:
+  - text: "Follow the steps below to modify the header background color : 1. Under More waffle icon, Select Admin option, expand Branding option on the left pane and select Header. 2. Scroll down to the General section. 3. In the Header Background Color* field, enter the code of the new color. 4. Click the Save Changes button at the bottom of the page to update the changes. The updated color code will now reflect as your Header Background Color."
+
+  utter_change_search_color:
+  - text: "Follow the steps below to modify the search background color:1. Under More waffle icon, Select Admin option, expand Branding option on the left pane and select Header. 2. Scroll down to the Search section. 3. In the Search Background Color* field, enter the code of the new color. 4. Click the Save Changes button at the bottom of the page to update the changes. The updated color code will now reflect as your Search Background Color."
+
+  utter_change_search_txt_color:
+  - text: "Follow the steps below to modify the search text color: 1. Refer to steps 1 and 2 in the search background color section.v2. In the Search Text Color* field, enter the code of the new color.v3. Click the Save Changes button at the bottom of the page to update the changes.vThe updated color code will now reflect as your Search Text Color."
+
+  utter_change_placeholdertext_color:
+  - text: "Follow the steps below to modify thesearch placeholdertext color:1. Refer to steps 1 and 2 in the search background color section. 2. In the Search PlaceholderText Color* field, enter the code of the new color. 3. Click the Save Changes button at the bottom of the page to update the changes. The updated color code will now reflect as your Search Placeholder Text Color."
+
+  utter_change_micon_rcolor:
+  - text: "Follow the steps below to modify the menu icons and text tolor: 1. Under More waffle icon, Select Admin option, expand Branding option on the left pane and select Header. 2. Scroll down to the Menu section. 3. In the Menu Icons and Text Color* field, enter the code of the new color. 4. Click the Save Changes button at the bottom of the page to update the changes. The updated color code will now reflect as your Menu Icons and Text Color."
+
+  utter_change_menu_underline_color:
+  - text: "Follow the steps below to modify the menu underline color: 1. Refer to steps 1 and 2 in the menu icons and text color section. 2. In the Menu Underline Color* field, enter the code of the new color. 3. Click the Save Changes button at the bottom of the page to update the changes. The updated color code will now reflect as your Menu Underline Color"
+
+  utter_change_bbackground_color:
+  - text: "Follow the steps below to modify the create button background color: 1. Under More waffle icon, Select Admin option, expand Branding option on the left pane and select Header. 2. Scroll down to the Create Button section. 3. In the Create Button Background Color* field, enter the code of the new color. 4. Click the Save Changes button at the bottom of the page to update the changes. The updated color code will now reflect as your Create Button Background Color."
+
+  utter_change_btext_color:
+  - text: "Follow the steps below to modify the create button text color: 1. Refer to steps 1 and 2 in the create button background color section. 2. In the Create Button Text Color* field, enter the code of the new color. 3. Click the Save Changes button at the bottom of the page to update the changes. The updated color code will now reflect as your Create ButtonText Color."
+
+  utter_change_font:
+  - text: "Follow the below steps to change the font: 1. Under More waffle icon, Select Admin option, expand Branding option on the left pane and select General. 2. Scroll down to the Font section. 3. From the Font Family drop down list, select the font that you want to use for displaying text in the platform. You can view how the font looks in the Preview section located on the right side of the Font Family drop down menu. 4. Click the Save Changes button at the bottom of the page to update the changes. The text on the platform will now display in the new font."
+
+  utter_setup_signup_functionality:
+  - text: "Follow the below steps to set up the Sign Up functionality:"
+    image: "https://chatbot-qa.cmnetwork.co/static/signupfunc.png"
+  
+  utter_configure_user_acceptance_sign:
+  - text: "The users must agree to certain terms and conditions the Admin configures for ensuring their acceptance before they log in to the platform."
+    image: "https://chatbot-qa.cmnetwork.co/static/verfysignup.png"
+
+  utter_whitelabel_package:
+  - text: "● All features included as part of Level 1. ● Full whitelabeling of the product (No Edcast logo will be available anywhere in the product). ● The administrators can create customized email templates with their own logo. ● Following Whitelabel widgets are available: ○ Microsoft Teams ○ Chrome Extension ○ Whitelabel mobile (iOS/Android) applications are provided including the following customizations: (See Appendix C for screenshots) ○ Customized app icon. ○ Customized app “launch screen”. ○ Simplified mobile app sign in flow (No need for user to enter “team name” to sign into app). ○ Enterprise App Distribution via MDM (**As a prerequisite for mobile whitelabel apps, the customer must have an MDM solution and the resources to deploy each app update into their own MDM)."
+
+  utter_modify_team_page:
+  - text: "The Team page enables you to modify the general settings of your EdCast instance. You canperform the following tasks on this page: ● Modifying the general settings such as your organization name, domain, feed expiration, editing privacy policy and terms of service, and many more other features that are available only with White label package.● Customizing the Default CLC Badge Images. ● Customizing theDefault Badges"
+
+  utter_edit_feed_expry:
+  - text: "Feed Expiration features enable you to set the lifespan of the content displayed in the users personalized feed. The lifespan is defined as the number of days the content is available for the users in their personalized feed section"
+    image: "https://chatbot-qa.cmnetwork.co/static/editfeedexp.png"
+
+  utter_set_privacy_policy:
+  - text: "The Privacy Policy section enables you to host the Privacy Policy on your LXP. To host the privacy policy, you must adhere to the following guidelines: ● You can set only EdCast Privacy Policy. ● If you want to set your custom privacy policy, you must ensure that the URL is hosted on your organizations website and it allows traffic to be directed to it from the LXP"
+    image: "https://chatbot-qa.cmnetwork.co/static/setpp.png"
+
+  utter_enable_terms_service:
+  - text: "The Terms of Services section allows you to host the terms of service on your LXP by enabling it via the Admin console"
+    image: "https://chatbot-qa.cmnetwork.co/static/enabletermservice.png"
+  
+  utter_set_links_stores:
+  - text: "Follow the steps below to provide the links of app stores:"
+    image: "https://chatbot-qa.cmnetwork.co/static/setpp.png"
+
+  utter_set_chrome_extlink:
+  - text: "Follow the steps below to provide the links of app stores:"
+    image: "https://chatbot-qa.cmnetwork.co/static/setchromelink.png"
+  
+  utter_set_support_emaillink:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/setsuppemail.png"
+  
+  utter_enable_disable_ecustom_css:
+  - text: "You can enable or disable the email custom CSS. When it is enabled, you can customize the email CSS to modify the look and feel of the email template."
+    image: "https://chatbot-qa.cmnetwork.co/static/ecustomcss.png"
+  
+  utter_enable_disable_mobile_promotions:
+  - text: "Follow the steps below to enable/disable Mobile promotions: 1. Under the More waffle icon, Select Admin option, expand Settings option on the left pane and select Team. 2. Scroll down to Enable Mobile promotion footer. 3. Turn the toggle button ON or OFF to enable or disable the Mobile promotions"
+    image: "https://chatbot-qa.cmnetwork.co/static/emaillink.png"
+  
+  utter_disable_emails_notifications:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/emailnotfy.png"
+  
+  utter_change_google_analytics_tracking:
+  - text: "You can set up the Google Analytics Tracking ID via Admin console to track and report the LXP’s traffic.Follow the steps change the Google analytics tracking ID: 1. Under the More waffle icon, Select Admin option, expand Settings option on the left pane and select Team. 2. Scroll down to Google Analytics Tracking ID. 3. In the Google Analytics Tracking ID text box, enter the ID"
+    image: "https://chatbot-qa.cmnetwork.co/static/ganalysis.png"
+
+  utter_edit_no_learning:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/editlearning.png"
+  
+  utter_change_default_tlang:
+  - text: "The Default Team language is the language defined by the Admin for users of an organization. You can modify the Team language to select your preferred language. Once you select a language, all the content and UI menu items of the EdCast instance will change in accordance with the preferred language. Follow the steps below to change the default team language: 1. Under the More waffle icon, Select Admin option, expand Settings option on the left pane and select Team. 2. Scroll down to Default Team Language. 3. From the Default Team Language drop down list, select the language that you want to set"
+
+  utter_change_active_websession:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/awebsession.png"
+
+  utter_change_inactive_websession:
+  - text: "You can set the inactive web session timeout for your organization’s EdCast instance. Once the time is set, it will automatically timeout the inactive web session if it is idle for the defined time period"
+    image: "https://chatbot-qa.cmnetwork.co/static/inawebsession.png"
+
+  utter_domo_url:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/domourl.png"
+  
+  utter_customize_clc_image:
+  - text: "Follow the steps below to customize default badges: 1. Under the More waffle icon, Select Admin option, expand Settings option on the left pane and select Team. 2. Scroll down to the Custom Default Badges section. 3. Edit the below properties under the custom default card images section: a. Bucket Name b. Region"
+    image: "https://chatbot-qa.cmnetwork.co/static/custbadges.png"
+
+  utter_config_hometab:
+  - text: "You can configure the common feeds and rearrange them to help in easier navigation of the content for the users.You can also enable and rearrange the feeds that you want your users to see"
+    image: "https://chatbot-qa.cmnetwork.co/static/chometab1.png"
+
+  utter_discover_page:
+  - text: "Your iscover page should inspire and motivate your users. This is where a user can explore everything your site has to offer. As the admin, you should customize the properties efficiently to highlight the important aspects of your website."
+
+  utter_diff_type_carousels:
+  - text: "The Discover page layout consists of rows of carousels. There are various types of carousels that you can choose to display the content."
+    image: "https://chatbot-qa.cmnetwork.co/static/dtypecaro.png"
+
+  utter_customize_badges:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/setchromelink.png"
+
+  
+  utter_config_dis_page:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/dispage1.png, https://chatbot-qa.cmnetwork.co/static/dispage2.png"
+  
+  utter_config_login_page:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/configlogin1 .png"
+  
+  utter_managing_usersedcast:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/mcedcast.png"
+  
+  utter_types_user_state:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/tuser1.png, https://chatbot-qa.cmnetwork.co/static/tuser2.png"
+
+  utter_manual_add_users:
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/madduser.png"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: ""
+    image: "https://chatbot-qa.cmnetwork.co/static/setchromelink.png"
   
   utter_did_that_help:
   - text: "Did that help you?"

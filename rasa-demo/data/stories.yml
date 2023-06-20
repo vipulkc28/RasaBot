@@ -169,6 +169,538 @@ stories:
   - action: utter_greet
   - intent: create_journey
   - action: utter_create_journey
+
+- story: add an existing pathway to journey
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: add_exist_pathway
+  - action: utter_exisitng_pathway
+
+- story: allocate badge to journey
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: allocate_badge_journey
+  - action: utter_allocate_badge_journey
+
+- story: co author journey
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: co_author_journey
+  - action: utter_co_author_journey
+
+- story: co author journey
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: create_custom_feeds
+  - action: utter_create_custom_feeds
+
+- story: features of feed
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: featured_feeds
+  - action: utter_features_feeds
+
+- story: team learning
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: team_learning
+  - action: utter_team_learning
+
+- story: create announcements
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: create_announcements
+  - action: utter_announcements
+
+- story: different type carousel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: type_carousel
+  - action: utter_type_carousel
+
+- story: configure the discover page
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: config_discover_page
+  - action: utter_config_discover_page
+
+- story: different user roles
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: different_role
+  - action: utter_different_role
+
+- story: search effectively on EdCast
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search_effectively_EdCast
+  - action: utter_search_effectively_EdCast
+
+- story: different categories of search
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: different_categories_search
+  - action: utter_different_categories_search
+
+- story: Enable or Disable People Search result via Header search
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: enable_disable_search_result
+  - action: utter_enable_disable_search_result
+
+- story: Disable People Search from the More menu
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: disable_people_search
+  - action: utter_disable_people_search
+
+- story: make the most of EdCast with search
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: most_EdCast_search
+  - action: utter_most_EdCast_search
+
+- story: private channels
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: private_channel
+  - action: utter_private_channel
+
+- story: types of channel content
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: type_channel
+  - action: utter_type_channel
+  
+- story: create a channel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: create_channel
+  - action: utter_create_channel
+
+- story: create a channel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: curate_content_channel
+  - action: utter_curate_content_channel
+
+- story: change channel settings
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_channel_setting
+  - action: utter_change_channel_setting
+
+- story: manage channel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: manage_channel
+  - action: utter_manage_channel
+
+- story: tune channel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tune_channel
+  - action: utter_tune_channel
+
+- story: feature and un_feature content
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: feature_un_feature_content
+  - action: utter_feature_un_feature_content
+
+- story: best practices for channel curation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: best_practices_channel_curation
+  - action: utter_best_practices_channel_curation
+
+- story: different user roles
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: different_user_roles
+  - action: utter_different_user_roles
+
+- story: user subscribe to channel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_subscribe
+  - action: utter_user_subscribe
+
+- story: sort channel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sort_channel
+  - action: utter_sort_channel
+
+- story: navigate to the Leaderboard
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: nvg_leaderboard
+  - action: utter_nvg_leaderboard
+
+- story: filter results on the Leaderboard
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: filter_result_leaderboard
+  - action: utter_filter_result_leaderboard
+
+- story: manage dashboard
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: manage_dashboard
+  - action: utter_manage_dashboard
+
+- story: Manager Dashboard offer
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: manager_dashboard_offer
+  - action: utter_manager_dashboard_offer
+
+- story: add manager
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: add_manager
+  - action: utter_add_manager
+
+- story: remainder complete assignment
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: rem_complete_assignments
+  - action: utter_rem_complete_assignments
+
+- story: 360-degree Skills Assessment
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: 360_degree_skill_assign
+  - action: utter_360_degree_skill_assign
+
+- story: basic customization
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: basic_customization
+  - action: utter_basic_customization
+
+- story: features level1 basic customization
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: features_level1_basic_customization
+  - action: utter_features_level1_basic_customization
+
+- story: change fav icon
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_fav_icon
+  - action: utter_change_fav_icon
+
+- story: change primary company color
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_primary_color
+  - action: utter_change_primary_color
+
+- story: change header background color
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_header_color
+  - action: utter_change_header_color
+
+- story: change search background color
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_search_color
+  - action: utter_change_header_color
+
+- story: change search text color
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_search_txt_color
+  - action: utter_change_search_txt_color
+
+- story: change search placeholder text color
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_placeholdertext_color
+  - action: utter_change_placeholdertext_color
+
+- story: change menu icon and text color
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_micon_rcolor
+  - action: utter_change_micon_rcolor
+
+- story: change the menu underline color
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_menu_underline_color
+  - action: utter_change_menu_underline_color
+
+- story: change the create button background color
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_bbackground_color
+  - action: utter_change_bbackground_color
+
+- story: change the create button text color
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_btext_color
+  - action: utter_change_btext_color
+
+- story: change font
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_font
+  - action: utter_change_font
+
+- story: setup signup functionality
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: setup_signup_functionality
+  - action: utter_setup_signup_functionality
+
+- story: configure user acceptance verification for sign up
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: configure_user_acceptance_sign
+  - action: utter_configure_user_acceptance_sign
+
+- story: Whitelabel Package
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: whitelabel_package
+  - action: utter_whitelabel_package
+
+- story: modify the team page under settings option
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: modify_team_page
+  - action: utter_modify_team_page
+
+- story: edit feed expiration
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: edit_feed_expry
+  - action: utter_edit_feed_expry
+
+- story: set the privacy policy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: set_privacy_policy
+  - action: utter_set_privacy_policy
+
+- story: enable the terms of service
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: enable_terms_service
+  - action: utter_enable_terms_service
+
+- story: set the links of app stores
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: set_links_stores
+  - action: utter_set_links_stores
+
+- story: set the Chrome Extension link
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: set_chrome_extlink
+  - action: utter_set_chrome_extlink
+
+- story: set the Chrome Extension link
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: set_support_emaillink
+  - action: utter_set_support_emaillink
+
+- story: enable/disable email custom CSS
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: enable_disable_ecustom_css
+  - action: utter_enable_disable_ecustom_css
+
+- story: enable/disable the mobile promotions
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: enable_disable_mobile_promotions
+  - action: utter_enable_disable_mobile_promotions
+
+- story: disable all emails and notifications
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: disable_emails_notifications
+  - action: utter_disable_emails_notifications
+
+- story: change Google Analytics Tracking ID
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_google_analytics_tracking
+  - action: utter_change_google_analytics_tracking
+
+- story: edit the number of learning items
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: edit_no_learning
+  - action: utter_edit_no_learning
+
+- story: change the Default Team Language
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_default_tlang
+  - action: utter_change_default_tlang
+
+- story: change the active web session timeout
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_active_websession
+  - action: utter_change_active_websession
+
+- story: change the inactive web session timeout
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: change_inactive_websession
+  - action: utter_change_inactive_websession
+
+- story: attach domo url
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: domo_url
+  - action: utter_domo_url
+
+- story: customize the default CLC badge images
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: customize_clc_image
+  - action: utter_customize_clc_image
+
+- story: customize the default badges
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: customize_badges
+  - action: utter_customize_badges
+
+- story: configure the Home tab
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: config_hometab
+  - action: utter_config_hometab
+
+- story: discover page
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: discover_page
+  - action: utter_discover_page
+
+- story: different types of carousels
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diff_type_carousels
+  - action: utter_diff_type_carousels
+
+- story: configure the Discover page
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: config_dis_page
+  - action: utter_config_dis_page
+
+- story: Managing users on your EdCast instance
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: managing_usersedcast
+  - action: utter_managing_usersedcast
+
+- story: configure the login page
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: config_login_page
+  - action: utter_config_login_page
+
+- story: types of user states
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: types_user_state
+  - action: utter_types_user_state
+
+- story: manually add users to the platform
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: manual_add_users
+  - action: utter_manual_add_users
   
 - story: sad path 1
   steps:

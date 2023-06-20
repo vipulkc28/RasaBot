@@ -11,7 +11,7 @@ def home():
 @app.route("/webhook", methods=["POST"])
 def webhook():
     data = request.json
-    response = requests.post("http://localhost:5005/webhooks/rest/webhook", json=data)
+    response = requests.post("https://chatbot-qa.cmnetwork.co/webhooks/rest/webhook", json=data)
     return response.json()
 
 if __name__ == '__main__':

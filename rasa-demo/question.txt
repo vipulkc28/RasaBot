@@ -1,3 +1,6 @@
+command to run:-
+rasa run --enable-api --cors "*"
+
 Questions:-
 1. LXP Web Learner
 2. How to upload or change your profile image?
@@ -22,4 +25,88 @@ Questions:-
 21. What is Journey
 22. What are the different types of Journeys?
 23. How to create a Journey?
-24. 
+24. How to add an existing Pathway to a Journey?
+25. How do you allocate a badge to a Journey?
+26. How to co-author Journeys?
+27. How to create Custom Feeds?
+28. What is Featured Feed?
+29. What is Team Learning?
+30. What are Announcements?
+31. What are the different types of carousel available to users?
+32. How to configure the Discover page?
+33. What are the different user roles?
+35. How to search effectively on EdCast?
+36. What are the different categories of search results on the EdCast Platform
+37. Enable/Disable People Search result via Header search
+38. Disable People Search from the More menu
+39. How to make the most of EdCast with search?
+40. What are Private channels?
+41. What are the types of channel content options?
+42. How to create a channel?
+43. How to create a channel?
+44. How to curate content in a channel?
+45. How to change the channel settings?
+46. How to manage a channel?
+47. How to tune a channel?
+48. How to feature and un-feature content?
+49. What are the best practices for channel curation?
+50. What are the different user roles of a channel?
+51. How can users subscribe to a channel?
+52. How to sort all channels?
+53. How to navigate to the Leaderboard?
+54. How to filter results on the Leaderboard?
+55. How to Manager's Dashboard
+56. What does the Manager Dashboard offer?
+57. How to send reminders to reportees to complete assignments?
+58. How to add a manager?
+59. What is a 360-degree Skills Assessment?
+
+//Administering LXP - Product Part 1
+1. What is Basic Customization?
+2. What are features of level 1 basic customization?
+3. How to change the fav icon?
+4. How to change the primary company color?
+5. How to change the header background color?
+6. How to change the search text color?
+7. How to change the search placeholdertext color?
+8. How to change menu icons and text color?
+9. How to change the menu underline color?
+10. How to change the create button background color*?
+11. How to change the create button text color*?
+12. How to change the font?
+13. How to set up sign up functionality?
+14. How to configure user acceptance verification for sign up?
+15. What is Level 2: Whitelabel Package?
+16. How to modify the team page under settings option?
+17. How to edit feed expiration?
+18. How to set the privacy policy?
+19. How to enable the terms of service?
+20. How to set the links of app stores?
+21. How to set the Chrome Extension link?
+22. How to set a support email link?
+23. How to enable/disable email custom CSS?
+24. How to enable/disable the mobile promotions
+25. How to disable all emails and notifications?
+26. How to change Google Analytics Tracking ID?
+27. How to edit the number of learning items?
+28. How to change the Default Team Language?
+29. How to change the active web session timeout?
+30. How to change the inactive web session timeout?
+31. How to attach a DOMO url?
+32. How to customize the default CLC badge images?
+33. How to customize the default badges?
+34. How to configure the Home tab?
+35. What is the Discover page?
+36. What are the different types of carousels?
+37. How to configure the Discover page?
+38. How to configure the login page?
+39. Managing users on your EdCast instance?
+40. Types of user states
+41. How to manually add users to the platform
+
+
+
+
+
+
+

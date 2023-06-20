@@ -140,6 +140,388 @@ nlu:
     - create journey
     - journey creation
 
+- intent: add_exist_pathway
+  examples: |
+    - How to add an existing Pathway to a Journey?
+    - Add an existing pathway
+    - add existing pathway to a journey
+
+- intent: allocate_badge_journey
+  examples: |
+    - How do you allocate a badge to a Journey?
+    - allocate a badge
+    - badge allocate to journey
+
+- intent: co_author_journey
+  examples: |
+    - How to co-author Journeys??
+    - co-author Journeys?
+
+- intent: create_custom_feeds
+  examples: |
+    - How to create Custom Feeds?
+    - create custom feeds
+  
+- intent: featured_feeds
+  examples: |
+    - What is Featured Feed?
+    - featured feeds
+
+- intent: team_leaning
+  examples: |
+    - What is Team Learning?
+    - team learning
+
+- intent: announcements
+  examples: |
+    - What are Announcements?
+    - Announcements
+
+- intent: type_carousel
+  examples: |
+    - What are the different types of carousel available to users?
+    - different types of carousel available
+
+- intent: config_discover_page
+  examples: |
+    - How to configure the Discover page?
+    - config discover page
+
+- intent: different_role
+  examples: |
+    - What are the different user roles?
+    - different user role
+
+- intent: search_effectively_EdCast
+  examples: |
+    - How to search effectively on EdCast?
+    - effectively on Edcast
+
+- intent: different_categories_search
+  examples: |
+    - What are the different categories of search results on the EdCast Platform?
+    - different categories of search
+
+- intent: enable_disable_search_result
+  examples: |
+    - How to Enable/Disable People Search result via Header search?
+    - Enable/Disable People Search result via Header search
+    - Enable/Disable People Search result
+
+- intent: disable_people_search
+  examples: |
+    - How to Disable People Search from the More menu?
+    - Disable People Search from the More menu
+
+- intent: most_EdCast_search
+  examples: |
+    - How to make the most of EdCast with search?
+    - most of EdCast with search
+
+- intent: private_channel
+  examples: |
+    - What are Private channels?
+    - Private channels
+
+- intent: type_channel
+  examples: |
+    - What are the types of channel content options?
+    - types of channels content
+
+- intent: create_channel
+  examples: |
+    - How to create a channel?
+    - create a channel
+
+- intent: curate_content_channel
+  examples: |
+    - How to curate content in a channel?
+    - curate content in channel
+
+- intent: change_channel_setting
+  examples: |
+    - How to change the channel settings?
+    - change channel setting
+
+- intent: manage_channel
+  examples: |
+    - How to manage a channel?
+    - manage channel
+
+- intent: tune_channel
+  examples: |
+    - How to tune a channel?
+    - tune channel
+
+- intent: feature_un_feature_content
+  examples: |
+    - How to feature and un-feature content?
+    - feature and un-feature content
+
+- intent: best_practices_channel_curation
+  examples: |
+    - What are the best practices for channel curation?
+    - best practices for channel
+
+- intent: different_user_roles
+  examples: |
+    - What are the different user roles of a channel?
+    - different user roles
+
+- intent: user_subscribe
+  examples: |
+    - How can users subscribe to a channel?
+    - users subscribe to channel
+
+- intent: sort_channel
+  examples: |
+    - How to sort all channels?
+    - sort all channel
+
+- intent: nvg_leaderboard
+  examples: |
+    - How to navigate to the Leaderboard?
+    - navigate to leaderboard
+
+- intent: filter_result_leaderboard
+  examples: |
+    - How to filter results on the Leaderboard?
+    - filter results on the Leaderboard
+
+- intent: manage_dashboard
+  examples: |
+    - How to Manager's Dashboard
+    - manage dashboard
+
+- intent: manager_dashboard_offer
+  examples: |
+    - What does the Manager Dashboard offer?
+    - Manager Dashboard offer
+
+- intent: rem_complete_assignments
+  examples: |
+    - How to send reminders to reportees to complete assignments?
+    - reminders to reportees to complete assignments
+
+- intent: add_manager
+  examples: |
+    - How to add a manager?
+    - Add Manager
+
+- intent: 360_degree_skill_assign
+  examples: |
+    - What is a 360-degree Skills Assessment?
+    - 360-degree Skills Assessment
+
+- intent: basic_customization
+  examples: |
+    - What is Basic Customization?
+    - basic customization
+
+- intent: features_level1_basic_customization
+  examples: |
+    - What are features of level 1 basic customization?
+    - features of level 1 basic customization
+    - level 1 basic customization features
+
+- intent: change_fav_icon
+  examples: |
+    - How to change the fav icon?
+    - change the fav icon
+
+- intent: change_primary_color
+  examples: |
+    - How to change the primary company color?
+    - change the primary company color
+
+- intent: change_header_color
+  examples: |
+    - How to change the header background color?
+    - change the header background color
+
+- intent: change_search_color
+  examples: |
+    - How to change the search background color?
+    - change the search background color
+
+- intent: change_search_txt_color
+  examples: |
+    - How to change the search text color?
+    - change the search text color
+
+- intent: change_placeholdertext_color
+  examples: |
+    - How to change the search placeholdertext color?
+    - change the search placeholdertext color
+
+- intent: change_micon_rcolor
+  examples: |
+    - How to change menu icons and text color?
+    - change menu icon and text color
+
+- intent: change_menu_underline_color
+  examples: |
+    - How to change the menu underline color?
+    - change the menu underline color
+
+- intent: change_bbackground_color
+  examples: |
+    - How to change the create button background color*?
+    - change the create button background color
+
+- intent: change_btext_color
+  examples: |
+    - How to change the create button text color*?
+    - change the create button text color
+
+- intent: change_font
+  examples: |
+    - How to change the font?
+    - change font
+
+- intent: setup_signup_functionality
+  examples: |
+    - How to set up sign up functionality?
+    - sign up functionality
+
+- intent: configure_user_acceptance_sign up
+  examples: |
+    - How to configure user acceptance verification for sign up?
+    - configure user acceptance verification for sign up
+
+- intent: whitelabel_package
+  examples: |
+    - What is Level 2: Whitelabel Package?
+    - Whitelabel Package
+   
+- intent: modify_team_page
+  examples: |
+    - How to modify the team page under settings option?
+    - modify the team page under settings option
+
+- intent: edit_feed_expry
+  examples: |
+    - How to edit feed expiration?
+    - edit feed expiration
+
+- intent: set_privacy_policy
+  examples: |
+    - How to set the privacy policy?
+    - set the privacy policy
+
+- intent: enable_terms_service
+  examples: |
+    - How to enable the terms of service?
+    - enable the terms of service
+
+- intent: set_links_stores
+  examples: |
+    - How to set the links of app stores?
+    - set the links of app stores
+
+- intent: set_chrome_extlink
+  examples: |
+    - How to set the Chrome Extension link?
+    - set the Chrome Extension link
+
+- intent: set_support_emaillink
+  examples: |
+    - How to set a support email link?
+    - set a support email link
+
+- intent: enable_disable_ecustom_css
+  examples: |
+    - How to enable/disable email custom CSS?
+    - enable/disable email custom CSS
+
+- intent: enable_disable_mobile_promotions
+  examples: |
+    - How to enable/disable the mobile promotions
+    - enable/disable the mobile promotions
+
+- intent: disable_emails_notifications
+  examples: |
+    - How to disable all emails and notifications?
+    - disable all emails and notifications
+
+- intent: change_google_analytics_tracking?
+  examples: |
+    - How to change Google Analytics Tracking ID?
+    - change Google Analytics Tracking ID
+
+- intent: edit_no_learning
+  examples: |
+    - How to edit the number of learning items?
+    - edit the number of learning items
+
+- intent: change_default_tlang
+  examples: |
+    - How to change the Default Team Language?
+    - change the Default Team Language?
+
+- intent: change_active_websession
+  examples: |
+    - How to change the active web session timeout?
+    - change the active web session timeout?
+
+- intent: change_inactive_websession
+  examples: |
+    - How to change the inactive web session timeout?
+    - change the inactive web session timeout?
+
+- intent: domo_url
+  examples: |
+    - How to attach a DOMO url?
+    - attach DOMO url
+
+- intent: customize_clc_image
+  examples: |
+    - How to customize the default CLC badge images?
+    - customize the default CLC badge images
+
+- intent: customize_badges
+  examples: |
+    - How to customize the default badges?
+    - customize the default badges
+
+- intent: config_hometab
+  examples: |
+    - How to configure the Home tab?
+    - configure the Home tab
+
+- intent: discover_page
+  examples: |
+    - What is the Discover page?
+    - Discover page
+
+- intent: diff_type_carousels
+  examples: |
+    - What are the different types of carousels?
+    - Different types of carousels
+
+- intent: config_discover_page
+  examples: |
+    - How to configure the Discover page?
+    - configure the Discover page
+
+- intent: managing_usersedcast
+  examples: |
+    - Managing users on your EdCast instance?
+
+- intent: config_login_page
+  examples: |
+    - How to configure the login page?
+    - configure the login page
+
+- intent: types_user_state
+  examples: |
+    - Types of user states
+
+- intent: manual_add_users
+  examples: |
+    - How to manually add users to the platform
+    - manually add users to the platform
+
 - intent: goodbye
   examples: |
     - thanks
